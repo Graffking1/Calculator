@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="calculator">
+        <input placeholder="0">
+        <br>
+        <button onclick="press(1)">1</button>
+        <button onclick="press(2)">2</button>
+        <button onclick="press(3)">3</button>
+        <button onclick="press('+')">+</button>
+        <br>
+        <button onclick="press(4)">4</button>
+        <button onclick="press(5)">5</button>
+        <button onclick="press(6)">6</button>
+        <button onclick="press('-')">-</button>
+        <br>
+        <button onclick="press(7)">7</button>
+        <button onclick="press(8)">8</button>
+        <button onclick="press(9)">9</button>
+        <button onclick="press('*')">*</button>
+        <br>
+        <button onclick="press('.')">.</button>
+        <button onclick="press('0')">0</button>
+        <button onclick="erase()">c</button>
+        <button onclick="press('/')">/</button>
+        <br>
+        <button onclick="press('(')">(</button>
+        <button onclick="press(')')">)</button>
+        <button onclick="press('00')">00</button>
+        <button onclick="press('000')">000</button>
+        <br>
+        <button onclick="save()" style="width: 19%">MS</button>
+        <button onclick="clear()" style="width: 19%">MC</button>
+        <button onclick="read()" style="width: 19%">MR</button>
+        <button onclick="Mplus()" style="width: 19%">M+</button>
+        <button onclick="Mminus()" style="width: 19%">M-</button>
+        <br>
+        <button onclick="sqrt()">√</button>
+        <br>
+        <button class="btnEqual" onclick="equal()">=</button>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

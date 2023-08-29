@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(74, 78, 78);
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 370px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(241, 241, 241);
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+
+button {
+    width: 24%;
+    height: 45px;
+    margin-top: 3px;
+    background: rgb(245, 243, 243);
+
+}
+
+input {
+    box-sizing: border-box;
+    padding: 40px 5px;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+}
+
+.btnEqual {
+    width: 99%
+}
